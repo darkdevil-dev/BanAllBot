@@ -4,7 +4,7 @@ class Config:
     API_ID = 
     API_HASH = ""
     TOKEN = ""
-    SUDO_RAW = os.environ.get("SUDO", "7644357019,7263027158")  # Default value
+    SUDO_RAW = os.environ.get("SUDO", "7086277926")  # Default value
     SUDO = [int(i) for i in SUDO_RAW.replace(",", " ").split() if i.strip().isdigit()]
     START_IMG = "https://telegra.ph/file/52fefb8bd51289a83a49b.jpg"
     BOT_ID = 7880134209
